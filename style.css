@@ -1,0 +1,50 @@
+.heading{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+button{
+    background-color: aliceblue;
+    border: 0px;
+    cursor: pointer;
+}
+.br{
+    padding: 7px;
+    float: left;
+    cursor: pointer;
+}
+.swamy{
+    float: right;
+    padding: 7px;
+    cursor: pointer;
+}
+.image{
+    position: relative;
+
+
+}
+.item1{
+    transform: translateY(100px);
+    z-index: 1;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+.message-button{
+    background-color: aqua;
+    padding: 5px;
+    cursor: pointer;
+    transition-property: inherit;
+    transition-duration: 1s;
+}
+.contact-heading{
+    cursor: pointer;
+}
+b{
+    padding: 7px;
+    background-color: rgb(8, 0, 0);
+    color: aliceblue;
+}
